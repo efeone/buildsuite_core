@@ -28,6 +28,7 @@ build-backend = "flit_core.buildapi"
 # hrms@version-16.
 [tool.bench.frappe-dependencies]
 frappe = ">=16.0.0,<17.0.0"
+erpnext = ">=16.0.0,<17.0.0"
 
 # These dependencies are only installed when developer mode is enabled
 [tool.bench.dev-dependencies]
