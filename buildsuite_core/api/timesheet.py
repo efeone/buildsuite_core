@@ -434,7 +434,7 @@ def _parse_date(v):
 def _num(v):
 	try:
 		return float(str(v).strip().replace(",", ""))
-	except TypeError, ValueError:
+	except (TypeError, ValueError):
 		return None
 
 
